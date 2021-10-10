@@ -1,7 +1,7 @@
 baseurl = "https://ErinZhang1998.github.io/"
 title = "Xiaoyu Zhang"
 author = "EZ"
-paginate = 2
+paginate = 4
 theme = "arabica"
 
 [params]

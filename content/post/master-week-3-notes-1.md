@@ -8,7 +8,7 @@ tags = [
 categories = [
     "fifth_year",
 ]
-date = "2014-10-20"
+date = "2021-10-04"
 +++
 
 ## Week View
@@ -48,10 +48,12 @@ I think I want to answer these 3 questions:
 - during the episode: commands to create the face
 - end of episode: forming the concept, categorize the concept (oh, another way of drawing eyes)
 
-Few interesting ideas from SORNet[^1]
-(talking in terms of how these ideas can help me answer the aforementioned 3 questions)
-
 ---
+
+**SORNet**[^1]
+
+(interesting points in terms of how these ideas can help me answer the aforementioned 3 questions)
+
 ✅ multi-step robotics task. \
 I think drawing is a multi-step robotics task. It is goal-oriented, because the goal of each episode is to, for example, draw the eye that the human wishes to teach the robot about. 
 
@@ -63,9 +65,6 @@ Of course, how the parts come together to form one drawing.
 ## Oct-8 Friday
 [🔝](#week-view)
 
-🤔 segmentation, semantic segmentation, generative modeling \
-The paper that Oliver showed me [📃](https://arxiv.org/abs/1903.07291). \
-**?** learning a distribution of what a flower looks like, but the bulk of the work would been done in terms of generating pixel-images?
 
 ## Oct-7 Thursday
 [🔝](#week-view)
