@@ -1,0 +1,15 @@
+baseurl = "https://example.org/"
+title = "Xiaoyu Zhang"
+author = "EZ"
+paginate = 2
+theme = "arabica"
+
+[params]
+    description = "Erin / 潇予"
+    dateFormatToUse = "2006-01-02"
+    replaceGoogleFonts = "fonts.loli.net"
+    twitter = "example"
+    facebook = "example"
+    email = "xiaoyuz1@andrew.cmu.edu"
+    abbr = "X.Y.Z"
+    enableEmoji = "true"
