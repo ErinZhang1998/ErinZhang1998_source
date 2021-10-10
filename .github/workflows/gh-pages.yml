@@ -24,7 +24,7 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        env:
+        with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: ErinZhang1998/ErinZhang1998.github.io
           publish_branch: master
