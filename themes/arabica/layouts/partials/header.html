@@ -13,9 +13,21 @@
 	</div>
 
 	<div class="nav">
-    {{ $currentPage := . }}
-		{{ range .Site.Menus.main }}
+    	{{ $currentPage := . }}
+		<!-- {{ range .Site.Menus.main }}
       <a class="nav- {{ if $currentPage.IsMenuCurrent "main" . }}nav-current{{ end }}" role="presentation" href="{{ .URL | relLangURL | safeURL }}">{{ .Name }}</a>
+		{{ end }} -->
+		{{ with .Site.Menus.main }}
+			{{ $navbar_len := len . }}
+			{{ range $i, $nav_item := . }}
+				<a class="nav- {{ if (eq $currentPage.URL .URL) }}nav-current{{ end }}" role="presentation" href="{{ $nav_item.URL }}" title="{{ $nav_item.Name }}">
+					{{ $nav_item.Pre }}{{ $nav_item.Name }}{{ $nav_item.Post }}
+				</a>
+				<!-- <a class="nav- {{ if $currentPage.IsMenuCurrent "main" . }}nav-current{{ end }}" role="presentation" href="{{ .URL | relLangURL | safeURL }}">{{ .Name }}</a> -->
+				<!-- {{ if ne (add $i 1) $navbar_len }}
+					<span class="nav-item navbar-text mx-1">/</span>
+				{{ end }} -->
+			{{ end }}
 		{{ end }}
 	</div>
 </header>

@@ -18,6 +18,8 @@ date = "2021-10-04"
 ## Oct-10 Sunday
 [🔝](#week-view)
 
+Constant and predicate symbols. Grounding and interpretations. 
+
 ## Oct-9 Saturday
 [🔝](#week-view)
 ### The big 3
@@ -42,8 +44,8 @@ I think I want to answer these 3 questions:
 {{< figure src="/images/master/week3/ideal_situation_1.png">}}
 
 
-*"user-defined"*: every human can have their own version of face or cat, it would be great if the robot can process generic input from anyone instead of just memorizing one way of drawing something. \
-*"episodes"*: ➡️ hierarchical structure 
+**"user-defined"**: every human can have their own version of face or cat, it would be great if the robot can process generic input from anyone instead of just memorizing one way of drawing something. \
+**"episodes"**: ➡️ hierarchical structure 
 - start of an episode: "now I will teach you how to draw an eye" 
 - during the episode: commands to create the face
 - end of episode: forming the concept, categorize the concept (oh, another way of drawing eyes)

@@ -13,3 +13,24 @@ theme = "arabica"
     email = "xiaoyuz1@andrew.cmu.edu"
     abbr = "X.Y.Z"
     enableEmoji = "true"
+
+[permalinks]
+    "/" = "/:filename"
+
+[menu]
+    [[menu.main]]
+        name = "About Me"
+        url = "/about"
+        weight = 1
+    [[menu.main]]
+        name = "projects"
+        url = "/"
+        weight = 2
+    [[menu.main]]
+        name = "Resume/CV"
+        url = "/resume.pdf"
+        weight = 3
+    [[menu.main]]
+        name = "blog"
+        url = "/"
+        weight = 4
