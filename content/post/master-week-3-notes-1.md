@@ -14,6 +14,8 @@ date = "2021-10-04"
 ## Week View
 | Wednesday | [Thursday](#oct-7-thursday) | [Friday](#oct-8-friday) | [Saturday](#oct-9-saturday) | [Sunday](#oct-10-sunday) | Monday | Tuesday |
 
+## Oct-11 Monday
+abstract concept; mirror; object size; ordinality (e.g. first apple); cardinality (row no.1); multiple instance of the same block; rotation; longer sentences because of nuanced goals; counts; geometric concepts (square, row); constrains specified by 3 different blocks; 
 
 ## Oct-10 Sunday
 [🔝](#week-view)
