@@ -1,0 +1,13 @@
+<article class="post">
+	<header class="post-header">
+    {{ with .Params.image }}
+      <img src="{{ . }}"></img>
+    {{ end }}
+		<h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Params.summaryTitle }}</a></h2>
+	</header>
+	<section class="post-excerpt">
+    <p>
+      {{ .Params.postSummary }} &hellip; <a class="read-more" href="{{ .RelPermalink }}">&raquo;</a>
+    </p>
+	</section>
+</article>

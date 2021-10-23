@@ -1,14 +1,8 @@
 {{ define "body_class" }}tag-template{{ end }}
 {{ define "title" }}{{ .Title }}{{ end }}
 {{ define "main" }}
-{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 4) }}
+{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "project") (index .Site.Params "archive-paginate" | default 4) }}
 <main class="content" role="main">
-  <!-- {{ if not $paginator.HasPrev }}
-    {{ if eq .Data.Plural "tags" }}
-      <h2 class="tag-title">{{ .Title }}</h2>
-    {{ end }}
-  {{ end }} -->
-
   {{ $pages := .Site.Params.homePageUrl }}
     {{ if .IsHome }}
       {{ $pages = where .Site.RegularPages "Type" "in" site.Params.mainSections }}

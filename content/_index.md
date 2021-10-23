@@ -13,15 +13,15 @@ Previously, I received my B.S. in Computer Science at Carnegie Mellon University
 In general, I have always been interested in studying how humans are such *efficient* learners (and really any intelligent beings, although understanding the exact mechanisms of other species is more challenging). 
 
 
+### Publications
+Xiaoyu Zhang, Irene M Kaplow, Morgan Wirthlin, Tae Yoon Park, Andreas R Pfenning. HALPER facilitates the identification of regulatory element orthologs across species. Bioinformatics 2020. [[paper]](https://pubmed.ncbi.nlm.nih.gov/32407523/)
+
+
 ### Teaching Experience
 **CMU 15-312 Functions of Programming Languages**
 January 2020 - May 2020
 **CMU 15-150 Functional Programming**
 January 2018 - December 2018
-
-
-### Publications
-Xiaoyu Zhang, Irene M Kaplow, Morgan Wirthlin, Tae Yoon Park, Andreas R Pfenning. HALPER facilitates the identification of regulatory element orthologs across species. Bioinformatics 2020.
 
 
 <!-- Hugo is the **world’s fastest framework for building websites**. It is written in Go.
