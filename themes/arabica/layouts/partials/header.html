@@ -20,7 +20,7 @@
 		{{ with .Site.Menus.main }}
 			{{ $navbar_len := len . }}
 			{{ range $i, $nav_item := . }}
-				<a class="nav- {{ if (eq $currentPage.URL .URL) }}nav-current{{ end }}" role="presentation" href="{{ $nav_item.URL }}" title="{{ $nav_item.Name }}">
+				<a class="nav {{ if (eq $currentPage.URL .URL) }}nav-current{{ end }}" role="presentation" href="{{ $nav_item.URL }}" title="{{ $nav_item.Name }}">
 					{{ $nav_item.Pre }}{{ $nav_item.Name }}{{ $nav_item.Post }}
 				</a>
 				<!-- <a class="nav- {{ if $currentPage.IsMenuCurrent "main" . }}nav-current{{ end }}" role="presentation" href="{{ .URL | relLangURL | safeURL }}">{{ .Name }}</a> -->

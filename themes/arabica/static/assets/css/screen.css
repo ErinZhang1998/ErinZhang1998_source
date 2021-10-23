@@ -124,21 +124,22 @@ hr {
 
 /* Links */
 .post a {
-    color: #FC7E0F;
+    color: #8ec562;
     text-decoration: none;
 }
 
 .post a:hover {
+    color: #8ec562;
     text-decoration: underline;
 }
 
 .post a:visited {
-    color: #9EABB3;
+    /* color: #9EABB3; */
     text-decoration: none;
 }
 
 a.read-more, a.read-more:hover, a.read-more:visited {
-    color: #FC7E0F;	/* #DA1F15, #F17F33 */
+    color: #8ec562;	/* #DA1F15, #F17F33 */
     text-decoration: none;
 }
 
@@ -273,11 +274,11 @@ dl dd {
 }
 
 .nav a:hover {
-	color: #FC7E0F;
+	color: #8ec562;
 }
 
 a.nav-current {
-	color: #FC7E0F;
+	color: #8ec562;
 }
 
 a.nav-home, a.nav-blog {
@@ -300,7 +301,7 @@ a.nav-home, a.nav-blog {
 }
 
 .site-footer a {
-	color: #FC7E0F;
+	color: #8ec562;
 	text-decoration: none;
 }
 
@@ -325,13 +326,13 @@ a.nav-home, a.nav-blog {
 	margin-left: -.2rem;
 	padding: .35rem .1rem 0.05rem .2rem;
 	vertical-align: middle;
-	border: 1px #FC7E0F solid;
+	border: 1px #8ec562 solid;
 	border-radius: 1.2rem;
 }
 
 .site-footer .rss a:hover {
 	color: #ffffff;
-	background: #FC7E0F;
+	background: #8ec562;
 }
 */
 
@@ -371,7 +372,7 @@ a.nav-home, a.nav-blog {
 }
 
 .post-footer .tags a:hover {
-	color: #FC7E0F;
+	color: #8ec562;
 }
 
 .post-footer h4 {
@@ -530,7 +531,7 @@ a.nav-home, a.nav-blog {
 
 .older-posts:hover,
 .newer-posts:hover {
-    color: #FC7E0F;
+    color: #8ec562;
 }
 
 .extra-pagination {
