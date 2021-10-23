@@ -15,6 +15,11 @@ date = "2021-10-20"
 | [Wednesday](#oct-20-wednesday) | Thursday | [Friday](#oct-22-friday) | [Saturday](#oct-23-saturday) | [Sunday](#oct-24-sunday) | [Thursday](#oct-25-thursday) | [Thursday](#oct-26-thursday) |
 
 
+## Oct-22-Friday
+Yingshan's Annotation Template 
+
+GMM vs. GAN
+
 ## Oct-20-Wednesday
 
 - Questions about the "Next" button: ✅ Users label their own step. 🤔 What does each **step** incorporates? One step in the drawing = Draw one primitive, label what it means.
@@ -22,6 +27,7 @@ date = "2021-10-20"
 - Do we still need the primitives? Would a decision make running baseline methods difficult? 
 - How to design the qualification round before actual annotations?
 - Axis-aligned vs. object-aligned bounding boxes? They can used for first decising where a component is.
+- "What did you just draw? What does the component mean?"
 
 Ask Yingshan about the Amazon Turk templates. \
 Make decisions about what to modify so it is the Amazon-Turkable. \

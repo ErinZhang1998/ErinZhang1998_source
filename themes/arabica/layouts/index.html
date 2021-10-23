@@ -1,16 +1,13 @@
+{{ define "body_class" }}page-template{{ end }}
 {{ define "main" }}
-	<main class="content" role="main">
-    {{ $pages := .Pages }}
-    {{ if .IsHome }}
-      {{ $pages = where .Site.RegularPages "Type" "in" site.Params.mainSections }}
-    {{ end }}
-    {{ $paginator := .Paginate $pages }}
-    <div class="extra-pagination">
-      {{ partial "pagination.html" . }}
-    </div>
-		{{ range $paginator.Pages }}
-      {{ .Render "summary" }}
-		{{ end }}
-    {{ partial "pagination.html" . }}
-	</main>
+<main class="content" role="main">
+  <article class="post page">
+    <header class="post-header">
+      <h1 class="post-title">{{ .Title }}</h1>
+    </header>
+    <section class="post-content">
+      {{ .Content }}
+    </section>
+  </article>
+</main>
 {{ end }}

@@ -20,11 +20,11 @@ theme = "arabica"
 [menu]
     [[menu.main]]
         name = "About Me"
-        url = "/about"
+        url = "/"
         weight = 1
     [[menu.main]]
         name = "projects"
-        url = "/"
+        url = "/project"
         weight = 2
     [[menu.main]]
         name = "Resume/CV"
@@ -32,5 +32,5 @@ theme = "arabica"
         weight = 3
     [[menu.main]]
         name = "blog"
-        url = "/"
+        url = "/post"
         weight = 4
