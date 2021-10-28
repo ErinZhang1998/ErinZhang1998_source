@@ -24,6 +24,9 @@ katex = true
 
 ? Qualification round.
 
+Classification --> 
+To demonstrate the symbol grounding  
+
 ## Oct-24-Sunday
 Design new Amazon Turk URL
 
