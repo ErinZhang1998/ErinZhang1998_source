@@ -13,19 +13,18 @@ katex = true
 +++
 
 ## Week View
-| [Wednesday](#oct-20-wednesday) | Thursday | [Friday](#oct-22-friday) | [Saturday](#oct-23-saturday) | [Sunday](#oct-24-sunday) | [Thursday](#oct-25-thursday) | [Thursday](#oct-26-thursday) |
+| [Wednesday](#oct-20-wednesday) | Thursday | [Friday](#oct-22-friday) | [Saturday](#oct-23-saturday) | [Sunday](#oct-24-sunday) | [Monday](#oct-25-monday) | [Tuesday](#oct-26-tuesday) |
 
 ## Oct-25-Monday
 - Finished the main annotation component on the webpage. Used table instead of row/div format so that we can easily have more than one prompt in a single annotation task. 
 - Use "tooltips" to remind Turks the intended usage of a button.
     - Should not annotate a step if no drawing for that step is done.
 
-{{< figure src="/images/master/week5/website-oct-25.png" height="100">}}
+{{< figure src="/images/master/week5/website-oct-25.png" height="300">}}
 
-? Qualification round.
+We will need exam questions for the qualification round.
 
-Classification --> 
-To demonstrate the symbol grounding  
+Constantly thinking about the goal of this project: symbol grounding.
 
 ## Oct-24-Sunday
 Design new Amazon Turk URL
